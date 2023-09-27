@@ -17,8 +17,16 @@ namespace educasa1.Servicios
             string mensaje = "Bienvenido a la Grieta del Invocador.";
             Console.WriteLine(mensaje);
         }
+        public int mostraBucle();
+        {
+        int opcionIntroducida;
+        Console.WriteLine("------------------------------------")
+        Console.WriteLine("Opcion 0. Salir")
+        Console.WriteLine("Buscar partida")
+        Console.WriteLine("Comprar un personaje")
+        Console.WriteLine("------------------------------------")
 
     }
-    
-    
+
+
 }

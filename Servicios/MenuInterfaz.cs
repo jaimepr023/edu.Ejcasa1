@@ -17,5 +17,12 @@ namespace educasa1.Servicios
         /// 260923-jpr
         /// </summary>
         public void mensajeBienvenida();
+
+        /// <summary>
+        /// Metodo que muestra el bucle por pantalla
+        /// 270923-jpr
+        /// </summary>
+        /// <return>Devuelve un entero en la posicion seleccionada</return>
+        public int mostrarBucle();
     }
 }

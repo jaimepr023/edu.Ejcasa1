@@ -1,4 +1,5 @@
-﻿using educasa1.Servicios;
+﻿using edu.Ejcasa1.servicios
+
 
 namespace educasa1.Controladores
 {/// <summary>
@@ -19,7 +20,31 @@ namespace educasa1.Controladores
             MenuInterfaz menuInterfaz = new MenuImplementacion();
             menuInterfaz.mensajeBienvenida();
         }
+        // Variable para poder entrar o cerrar el bucle.(como una llave)
+        bool cerrarBucle=false;
 
+        //Se trata de la opcion que se selecciona.
+        int opcionSeleccionar;
+
+        //condicion para entrar en el while/bucle y se debe cumplir la condicion 
+        while(!cerrarBucle)
+            {
+            switch opcionSeleccionar;
+            {
+            case 0:
+            Console.WriteLine("[INFOS] - La aplicacion se cerrara.");
+            cerrarBucle = true;
+            break;
+            case 1:
+            Console.WriteLine("[INFOS] - Estas buscando partida, acepta cuando quieras empezarla.");
+            break;
+            case 2:
+            Console.WriteLine("[INFOS] - Elige el personaje que quieras comprar");
+            break;
+            default:
+            Console.WriteLine("[INFOS] - La opcion seleccionada no existe");
+            break;
+             
 
 
     }
